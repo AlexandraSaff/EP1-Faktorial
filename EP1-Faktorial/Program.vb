@@ -15,9 +15,9 @@ Module Program
             Console.WriteLine("musí být menší než deset")
             Console.ReadKey()
             End
-        End If True Then
 
-End If
+
+        End If
         If Not IsNumeric(cislo) Then
             Console.WriteLine("neni to cislo")
             Console.ReadKey()
